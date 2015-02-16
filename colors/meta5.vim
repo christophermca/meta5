@@ -33,7 +33,7 @@ hi StatusLine     ctermfg=236 ctermbg=14 cterm=italic
 hi StatusLineNC   ctermfg=242 ctermbg=249
 hi VertSplit      ctermfg=238 ctermbg=238
 hi Folded         ctermbg=4 ctermfg=248
-hi Title          ctermfg=254
+hi Title          ctermfg=172
 hi Visual         ctermfg=14 ctermbg=239 cterm=bold
 hi SpecialKey     ctermfg=244 ctermbg=none
 
@@ -53,7 +53,6 @@ hi Operator    ctermfg=105
 hi Keyword     ctermbg=none ctermfg=195 cterm=bold
 hi Constant    ctermfg=135
 hi Number      ctermfg=77
-
 hi Special     ctermfg=77 cterm=bold " (*this*)
 hi PreCondit   ctermfg=1
 hi PreProc     ctermfg=38
