@@ -1,6 +1,6 @@
 " Author: 'Christopher MCA'
 " https:/github.com/christophermca/meta5
-" Version:      0.1_rc
+" Version:      0.25_rc
 " Last Change: 2/15/15
 "
 "Note: Loosly based off of / inspired by Mustang.vim created by Henrique C. Alves (hcarvalhoalves@gmail.com)
