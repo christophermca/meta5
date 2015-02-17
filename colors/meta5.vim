@@ -1,5 +1,5 @@
 " Author: 'Christopher MCA'
-" https:/github.com/christophermca/meta5
+" Site: https:/github.com/christophermca/meta5
 " Version:      0.25_rc
 " Last Change: 2/15/15
 "
@@ -21,16 +21,16 @@ if version >= 700
   hi CursorColumn ctermbg=236
   hi MatchParen   ctermfg=214 ctermbg=none cterm=none
   hi Pmenu        ctermfg=255 ctermbg=238
-  hi PmenuSel     ctermfg=0 ctermbg=6
-  hi search       ctermfg=231 ctermbg=52 cterm=underline
+  hi PmenuSel     ctermfg=0 ctermbg=172
+  hi search       ctermfg=161 ctermbg=none cterm=underline
 endif
 
 " General colors
 hi Cursor         ctermbg=240
 hi Normal         ctermfg=253 ctermbg=234
 hi LineNr         ctermfg=244 ctermbg=none
-hi StatusLine     ctermfg=236 ctermbg=14 cterm=italic
-hi StatusLineNC   ctermfg=242 ctermbg=249
+hi StatusLine     ctermfg=232 ctermbg=252 cterm=italic
+hi StatusLineNC   ctermfg=243 ctermbg=232 cterm=bold
 hi VertSplit      ctermfg=238 ctermbg=238
 hi Folded         ctermbg=4 ctermfg=248
 hi Title          ctermfg=172
@@ -45,7 +45,7 @@ hi Conditional ctermfg=86
 hi String      ctermfg=33
 hi Character   ctermfg=33
 hi Identifier  ctermfg=39
-hi Function    ctermfg=51 cterm=bold
+hi Function    ctermfg=51
 hi Type        ctermfg=117
 hi Label       ctermfg=172
 hi Statement   ctermfg=81
