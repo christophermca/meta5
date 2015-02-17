@@ -22,7 +22,7 @@ if version >= 700
   hi MatchParen   ctermfg=214 ctermbg=none cterm=none
   hi Pmenu        ctermfg=255 ctermbg=238
   hi PmenuSel     ctermfg=0 ctermbg=172
-  hi search       ctermfg=161 ctermbg=none cterm=underline
+  hi search       ctermfg=201 ctermbg=none cterm=underline
 endif
 
 " General colors
@@ -34,7 +34,7 @@ hi StatusLineNC   ctermfg=243 ctermbg=232 cterm=bold
 hi VertSplit      ctermfg=238 ctermbg=238
 hi Folded         ctermbg=4 ctermfg=248
 hi Title          ctermfg=172
-hi Visual         ctermfg=14 ctermbg=239 cterm=bold
+hi Visual         ctermfg=159 ctermbg=239 cterm=bold
 hi SpecialKey     ctermfg=244 ctermbg=none
 
 " Syntax highlighting
