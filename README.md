@@ -6,9 +6,8 @@ This colorscheme was inspired by the colorschemes: Mustang.vim, Molokai.vim, Jel
 Syntax highlighting testing: javascript, HTML.
 
 TODO:
-  - add gui color callout. for vim gui compatability.
-  - test out with other languages
-    - ruby
-    - possibly test
+   - test out with other languages
+      - Ruby
+      - Python
       - C
-      - java
+      - Java

@@ -1,9 +1,9 @@
 " Author: 'Christopher MCA'
 " Site: https:/github.com/christophermca/meta5
-" Version:      0.6_rc
-" Last Change: 7/9/15
+" Version:      0.7_rc
+" Last Change: 7/11/15
 "
-"Note: Loosly based off of / inspired by Mustang.vim created by Henrique C. Alves (hcarvalhoalves@gmail.com)
+"Note: a TRON inspired theme
 
 set background=dark
 
@@ -58,8 +58,8 @@ hi PreCondit   guifg=#800000 ctermfg=1
 hi PreProc     guifg=#00afdf ctermfg=38
 hi Define      guifg=#ff8700 ctermfg=208
 
-" Below kept from the Mustang.vim colorscheme created by Henrique C. Alves  (hcarvalhoalves@gmail.com)
-
-" Code-specific colors
-"hi pythonOperator guifg=#7e8aa2 gui=none ctermfg=103
-
+"diff colors
+hi DiffAdd    cterm=none ctermfg=46 ctermbg=22 gui=none guifg=#00ff00 guibg=#005f00
+hi DiffDelete cterm=none ctermfg=160 ctermbg=52 gui=none guifg=#df0000 guibg=#5f0000
+hi DiffChange cterm=none ctermfg=none ctermbg=none gui=none guifg=none guibg=none
+hi DiffText   cterm=bold ctermfg=none ctermbg=20 gui=bold guifg=none guibg=#0000df
