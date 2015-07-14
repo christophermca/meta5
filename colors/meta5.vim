@@ -1,25 +1,25 @@
 " Author: 'Christopher MCA'
 " Site: https:/github.com/christophermca/meta5
-" Version:      0.7_rc
-" Last Change: 7/11/15
+" Version:      0.7.5_rc
+" Last Change: 7/12/15
 "
 "Note: a TRON inspired theme
 
-set background=dark
+let colors_name = "meta5"
+highlight clear
 
-hi clear
+set background=dark
 
 if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "meta5"
 
 " Vim >= 7.0 specific colors
 if version >= 700
   hi CursorLine   guibg=#1c1c1c gui=none ctermbg=234 cterm=none
   hi CursorColumn guibg=#1c1c1c ctermbg=234
-  hi MatchParen   guifg=#ffaf00 guibg=none gui=none ctermfg=214 ctermbg=none cterm=none
+  hi MatchParen   guifg=#ffaf00 guibg=bold gui=bold ctermfg=214 ctermbg=none cterm=bold
   hi Pmenu        guifg=#eeeeee guibg=#444444 ctermfg=255 ctermbg=238
   hi PmenuSel     guifg=#000000 guibg=#df8700 ctermfg=0 ctermbg=172
   hi search       guifg=#ff00ff guibg=none gui=underline ctermfg=201 ctermbg=none cterm=underline
