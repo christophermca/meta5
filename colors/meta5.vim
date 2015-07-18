@@ -1,19 +1,17 @@
 " Author: 'Christopher MCA'
 " Site: https:/github.com/christophermca/meta5
-" Version:      0.7.5_rc
+" Version:      0.7.5.1_rc
 " Last Change: 7/12/15
 "
 "Note: a TRON inspired theme
 
-let colors_name = "meta5"
 highlight clear
-
-set background=dark
-
 if exists("syntax_on")
   syntax reset
 endif
 
+set background=dark
+let colors_name = "meta5"
 
 " Vim >= 7.0 specific colors
 if version >= 700
