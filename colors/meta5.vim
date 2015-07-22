@@ -36,28 +36,32 @@ hi Visual         guifg=#afffff guibg=#4e4e4e gui=bold ctermfg=159 ctermbg=239 c
 hi SpecialKey     guifg=#808080 ctermfg=244 guibg=none ctermbg=none
 
 " Syntax highlighting
-hi Comment     guifg=#808080 ctermfg=244
-hi Todo        guifg=#008080 guibg=#4e4e4e gui=bold ctermfg=6 ctermbg=239 cterm=bold
-hi Boolean     guifg=#87ff5f gui=bold ctermfg=119 cterm=bold
-hi Conditional guifg=#5fdfff ctermfg=81
-hi String      guifg=#0087df ctermfg=32
-hi Character   guifg=#0087ff ctermfg=33
-hi Identifier  guifg=#00afff ctermfg=39
-hi Function    guifg=#df8700  ctermfg=172
-hi Type        guifg=#87dfff ctermfg=117
-hi Label       guifg=#df5f00 ctermfg=202
-hi Statement   guifg=#5fdfff ctermfg=81
-hi Operator    guifg=#8787ff ctermfg=105
-hi Keyword     guifg=#dfffff guibg=none gui=bold ctermfg=195 ctermbg=none  cterm=bold
-hi Constant    guifg=#af5fff ctermfg=195 gui=bold cterm=bold
-hi Number      guifg=#5fdf5f ctermfg=77
-hi Special     guifg=#5fdf5f gui=bold ctermfg=77 cterm=bold
-hi PreCondit   guifg=#800000 ctermfg=1
-hi PreProc     guifg=#00afdf ctermfg=38
-hi Define      guifg=#ff8700 ctermfg=208
+hi Comment        guifg=#808080 ctermfg=244
+hi Todo           guifg=#008080 guibg=#4e4e4e gui=bold ctermfg=6 ctermbg=239 cterm=bold
+hi Boolean        guifg=#87ff5f gui=bold ctermfg=119 cterm=bold
+hi Conditional    guifg=#5fdfff ctermfg=81
+hi String         guifg=#0087df ctermfg=32
+hi Character      guifg=#0087ff ctermfg=33
+hi Identifier     guifg=#00afff ctermfg=39
+hi Function       guifg=#df8700  ctermfg=172
+hi Type           guifg=#87dfff ctermfg=117
+hi StorageClass   guifg=#87ff5f ctermfg=119
+hi Structure      guifg=#87ff5f ctermfg=129
+hi Label          guifg=#df5f00 ctermfg=202
+hi Statement      guifg=#5fdfff ctermfg=81
+hi Operator       guifg=#8787ff ctermfg=105
+hi Keyword        guifg=#dfffff guibg=none gui=bold ctermfg=195 ctermbg=none  cterm=bold
+hi Constant       guifg=#af5fff ctermfg=195 gui=bold cterm=bold
+hi Number         guifg=#5fdf5f ctermfg=77
+hi Special        guifg=#5fdf5f gui=bold ctermfg=77 cterm=bold
+hi PreCondit      guifg=#800000 ctermfg=1
+hi PreProc        guifg=#00afdf ctermfg=38
+hi Define         guifg=#ff8700 ctermfg=208
 
 "diff colors
 hi DiffAdd    cterm=none ctermfg=46 ctermbg=22 gui=none guifg=#00ff00 guibg=#005f00
 hi DiffDelete cterm=none ctermfg=160 ctermbg=52 gui=none guifg=#df0000 guibg=#5f0000
 hi DiffChange cterm=none ctermfg=none ctermbg=none gui=none guifg=none guibg=none
 hi DiffText   cterm=bold ctermfg=none ctermbg=20 gui=bold guifg=none guibg=#0000df
+
+hi javaTypedef  guifg=#87ff5f ctermfg=129
