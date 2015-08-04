@@ -1,7 +1,7 @@
 " Author: 'Christopher MCA'
 " Site: https:/github.com/christophermca/meta5
-" Version:      0.7.5.1_rc
-" Last Change: 7/12/15
+" Version:      0.7.6_rc
+" Last Change: 8/3/15
 "
 "Note: a TRON inspired theme
 
@@ -46,12 +46,12 @@ hi Identifier     guifg=#00afff ctermfg=39
 hi Function       guifg=#df8700  ctermfg=172
 hi Type           guifg=#87dfff ctermfg=117
 hi StorageClass   guifg=#87ff5f ctermfg=119
-hi Structure      guifg=#87ff5f ctermfg=129
+hi Structure      guifg=#00dfdf ctermfg=44
 hi Label          guifg=#df5f00 ctermfg=202
 hi Statement      guifg=#5fdfff ctermfg=81
 hi Operator       guifg=#8787ff ctermfg=105
 hi Keyword        guifg=#dfffff guibg=none gui=bold ctermfg=195 ctermbg=none  cterm=bold
-hi Constant       guifg=#af5fff ctermfg=195 gui=bold cterm=bold
+hi Constant       guifg=#af5fff ctermfg=195
 hi Number         guifg=#5fdf5f ctermfg=77
 hi Special        guifg=#5fdf5f gui=bold ctermfg=77 cterm=bold
 hi PreCondit      guifg=#800000 ctermfg=1
