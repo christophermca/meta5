@@ -1,7 +1,7 @@
 " Author: 'Christopher MCA'
 " Site: https:/github.com/christophermca/meta5
-" Version:      0.7.6_rc
-" Last Change: 8/3/15
+" Version:      0.7.7
+" Last Change: 8/27/15
 "
 "Note: a TRON inspired theme
 
@@ -16,7 +16,7 @@ let colors_name = "meta5"
 " Vim >= 7.0 specific colors
 if version >= 700
   hi CursorLine   guibg=#1c1c1c gui=none ctermbg=234 cterm=none
-  hi CursorColumn guibg=#1c1c1c ctermbg=234
+  hi CursorColumn guibg=#303030 ctermbg=236
   hi MatchParen   guifg=#ffaf00 guibg=bold gui=bold ctermfg=214 ctermbg=none cterm=bold
   hi Pmenu        guifg=#eeeeee guibg=#444444 ctermfg=255 ctermbg=238
   hi PmenuSel     guifg=#000000 guibg=#df8700 ctermfg=0 ctermbg=172
@@ -25,11 +25,12 @@ endif
 
 " General colors
 hi Cursor         guibg=#585858 ctermbg=240
-hi Normal         guifg=#dadada guibg=#1c1c1c ctermfg=250 ctermbg=233
+hi NonText        guifg=#5f5fff ctermfg=63
+hi Normal         guifg=#bcbcbc guibg=#121212 ctermfg=250 ctermbg=233
 hi LineNr         guifg=#808080 guibg=none ctermfg=244 ctermbg=none
-hi StatusLine     guifg=#080808 guibg=#d0d0d0 gui=italic ctermfg=232 ctermbg=252 cterm=italic
-hi StatusLineNC   guifg=#767676 guifg=#080808 gui=bold ctermfg=243 ctermbg=232 cterm=bold
-hi VertSplit      guifg=#444444 guibg=#444444 ctermfg=238 ctermbg=238
+hi StatusLine     guifg=#080808 guibg=#9e9e9e ctermfg=232 ctermbg=247
+hi StatusLineNC   guifg=#080808 guifg=#585858 ctermfg=232 ctermbg=240
+hi VertSplit      guifg=#444444 guibg=#585858 ctermfg=238 ctermbg=240
 hi Folded         guifg=#a8a8a8 guibg=#000080 ctermfg=248 ctermbg=4
 hi Title          guifg=#df8700 ctermfg=172
 hi Visual         guifg=#afffff guibg=#4e4e4e gui=bold ctermfg=159 ctermbg=239 cterm=bold
