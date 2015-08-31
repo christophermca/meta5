@@ -1,8 +1,7 @@
 " Author: 'Christopher MCA'
 " Site: https:/github.com/christophermca/meta5
-" Version:      0.7.7
-" Last Change: 8/27/15
-"
+" Version:      0.7.8
+
 "Note: a TRON inspired theme
 
 highlight clear
@@ -21,6 +20,7 @@ if version >= 700
   hi Pmenu        guifg=#eeeeee guibg=#444444 ctermfg=255 ctermbg=238
   hi PmenuSel     guifg=#000000 guibg=#df8700 ctermfg=0 ctermbg=172
   hi search       guifg=#ff00ff guibg=none gui=underline ctermfg=201 ctermbg=none cterm=underline
+  hi Incsearch    guifg=#ff00ff guibg=none gui=underline ctermfg=201 ctermbg=none cterm=underline
 endif
 
 " General colors
@@ -59,10 +59,16 @@ hi PreCondit      guifg=#800000 ctermfg=1
 hi PreProc        guifg=#00afdf ctermfg=38
 hi Define         guifg=#ff8700 ctermfg=208
 
-"diff colors
-hi DiffAdd    cterm=none ctermfg=46 ctermbg=22 gui=none guifg=#00ff00 guibg=#005f00
-hi DiffDelete cterm=none ctermfg=160 ctermbg=52 gui=none guifg=#df0000 guibg=#5f0000
-hi DiffChange cterm=none ctermfg=none ctermbg=none gui=none guifg=none guibg=none
-hi DiffText   cterm=bold ctermfg=none ctermbg=20 gui=bold guifg=none guibg=#0000df
+hi javaTypedef    guifg=#87ff5f ctermfg=129
 
-hi javaTypedef  guifg=#87ff5f ctermfg=129
+"diff
+hi DiffAdd        cterm=none ctermfg=46 ctermbg=22 gui=none guifg=#00ff00 guibg=#005f00
+hi DiffDelete     cterm=none ctermfg=160 ctermbg=52 gui=none guifg=#df0000 guibg=#5f0000
+hi DiffChange     cterm=none ctermfg=none ctermbg=none gui=none guifg=none guibg=none
+hi DiffText       cterm=bold ctermfg=none ctermbg=20 gui=bold guifg=none guibg=#0000df
+
+"spell
+hi spellBad       guifg=#5f0000 guibg=#585858 ctermfg=52 ctermbg=240 cterm=underline
+hi spellCap       guifg=#008700 guibg=#585858 ctermfg=28  ctermbg=240 cterm=underline
+hi spellRare      guifg=#800080 guibg=#585858 ctermfg=5 ctermbg=240 cterm=underline
+hi spelllocal     guifg=#0000df guibg=#585858 ctermfg=20 ctermbg=240 cterm=underline
