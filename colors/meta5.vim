@@ -1,6 +1,6 @@
 " Author: 'Christopher MCA'
 " Site: https:/github.com/christophermca/meta5
-" Version:      0.8.0
+" Version:      0.9.0
 
 "Note: a TRON inspired theme
 
@@ -48,10 +48,11 @@ hi Function       guifg=#df8700 ctermfg=172
 hi Type           guifg=#87dfff ctermfg=117
 hi Typedef        guifg=#87dfff gui=bold ctermfg=117 cterm=bold
 hi StorageClass   guifg=#87ff5f ctermfg=119
-hi Structure      guifg=#00dfdf ctermfg=44
-hi Label          guifg=#5f5fff ctermfg=63
+hi Structure      guifg=#01dfdf ctermfg=44
+hi Label          guifg=#5f87ff ctermfg=69
 hi Statement      guifg=#5fdfff ctermfg=81
-hi Exception      guifg=#b2b2b2 ctermfg=250
+hi Repeat         guifg=#afdfff gui=bold ctermfg=153 cterm=bold
+hi Exception      guifg=#afdfff gui=bold ctermfg=153 cterm=bold
 hi Operator       guifg=#8787ff ctermfg=105
 hi Keyword        guifg=#dfffff guibg=none gui=bold ctermfg=195 ctermbg=none  cterm=bold
 hi Constant       guifg=#af5fff ctermfg=195
