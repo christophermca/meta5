@@ -14,7 +14,3 @@ Vundle
 ```
 Plugin 'christophermca/meta5'
 ```
-
-
-NOTE:
-The latest release v0.10.0, I have updated the gui version of this colorscheme to better display how I designed it to look in a terminal. If you liked how the colorscheme looked before this update please use v0.9.1
