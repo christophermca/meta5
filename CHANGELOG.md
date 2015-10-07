@@ -1,3 +1,7 @@
+v0.12.0
+-------
+85b84d0 fixes issues #5 and issues #6
+
 v0.10.0
 -------
 207ae74 changes to README.md and updates to CHANGELOG.md  
@@ -56,13 +60,16 @@ v0.6.0
 v0.5.0
 -------
 60afda5 changed the orange coloring, added gui support
+
 v0.4.0
 -------
 021b435 changed search and visual search colors
+
 v0.3.0
 -------
 dd80c90 added more orange, tweeked the status line
 182930b Update README.md
+
 v0.2.5
 -------
 10f728c updated versioning
@@ -70,6 +77,7 @@ e7ad0c9 added title
 5e0b201 Update README.md
 01fbfc6 Create README.md
 d99b097 Merge branch 'master' of https://github.com/christophermca/meta5
+
 v0.1.0
 -------
 9c79d9f (tag: v0.1.0_rc) initial commit of meta5
