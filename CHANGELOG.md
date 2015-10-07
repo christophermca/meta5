@@ -4,15 +4,18 @@ v0.12.0
 
 v0.10.0
 -------
-207ae74 changes to README.md and updates to CHANGELOG.md  
-df17593 Merge pull request #4 from christophermca/macvim-meta5  
-c59b188 adjusting colors for macvim and other guis  
-bf140ea Update README.md  
+207ae74 changes to README.md and updates to CHANGELOG.md
+df17593 Merge pull request #4 from christophermca/macvim-meta5
+c59b188 adjusting colors for macvim and other guis
+bf140ea Update README.md
+
+NOTE:
+Since the v0.10.0 release, I have updated the gui version of this colorscheme to better display how I designed it to look in a terminal. If you liked how the colorscheme looked before this update please use v0.9.1
 
 v0.9.1
 -------
-66ad6ce fixing colors for GUIs | fixes #3 closes #2  
-018cb80 Update README.md  
+66ad6ce fixing colors for GUIs | fixes #3 closes #2
+018cb80 Update README.md
 
 v0.9.0
 -------
@@ -22,17 +25,17 @@ v0.8.0
 0e9a99d changes by design
 v0.7.8
 -------
-7453bd1 changed label to a purple to better go with the style  
+7453bd1 changed label to a purple to better go with the style
 b4a15d3 Update README.md
 
 v0.7.6
 -------
-921d795 Added spell check highlighting. Added Incsearch highlighting. Moved Java highlighting. removed last update from colorscheme info tag  
+921d795 Added spell check highlighting. Added Incsearch highlighting. Moved Java highlighting. removed last update from colorscheme info tag
 6273bb4 readme.md update
 
 v0.7.5
 -------
-595628c tweaked the status line and cursor line; set nonText;  and cleaning up gui colors  
+595628c tweaked the status line and cursor line; set nonText; and cleaning up gui colors
 
 v0.7.4
 -------
