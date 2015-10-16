@@ -1,3 +1,7 @@
+v0.13.0
+-------
+2f0d4e5 fold-color change
+
 v0.12.0
 -------
 85b84d0 fixes issues #5 and issues #6

@@ -1,6 +1,6 @@
 " Author: 'Christopher MCA'
 " Site: https:/github.com/christophermca/meta5
-" Version:      0.11.0
+" Version:      0.13.0
 
 "Note: a TRON inspired theme
 
@@ -32,7 +32,7 @@ hi LineNr         guifg=#808080 guibg=NONE ctermfg=244 ctermbg=NONE
 hi StatusLine     guifg=#080808 guibg=#585858 gui=bold ctermfg=232 ctermbg=240 cterm=bold term=bold
 hi StatusLineNC   guifg=#080808 guibg=#585858 ctermfg=232 ctermbg=240
 hi VertSplit      guifg=#444444 guibg=#585858 ctermfg=238 ctermbg=240
-hi Folded         guifg=#a8a8a8 guibg=#000080 ctermfg=248 ctermbg=4
+hi Folded         guifg=#005f5f guibg=#000080 ctermfg=23 ctermbg=0
 hi Title          guifg=#df8700 ctermfg=172
 hi Visual         guifg=#afffff guibg=#4e4e4e gui=bold ctermfg=159 ctermbg=239 cterm=bold
 hi SpecialKey     guifg=#808080 ctermfg=244 guibg=NONE ctermbg=NONE
