@@ -28,12 +28,16 @@ endif
 hi Cursor         guifg=#000000 guibg=#d0d0d0 ctermfg=0 ctermbg=252
 hi NonText        guifg=#5f5fff ctermfg=63
 hi Normal         guifg=#bcbcbc guibg=#1c1c1c ctermfg=250 ctermbg=233
+hi CursorLineNr   guifg=#ffff00 guibg=NONE ctermfg=11 ctermbg=NONE
+hi colorColumn    guibg=#000080 ctermbg=4
+hi Directory      guifg=#00ffff guibg=NONE ctermfg=14 ctermbg=NONE
 hi LineNr         guifg=#808080 guibg=NONE ctermfg=244 ctermbg=NONE
 hi StatusLine     guifg=#080808 guibg=#585858 gui=bold ctermfg=232 ctermbg=240 cterm=bold term=bold
 hi StatusLineNC   guifg=#080808 guibg=#585858 ctermfg=232 ctermbg=240
 hi VertSplit      guifg=#444444 guibg=#585858 ctermfg=238 ctermbg=240
-hi Folded         guifg=#005f5f guibg=#000080 ctermfg=23 ctermbg=0
+hi Folded         guifg=#005f5f guibg=#000000 ctermfg=23 ctermbg=0
 hi Title          guifg=#df8700 ctermfg=172
+hi Error          guifg=#0000af guibg=#0000ff ctermfg=19 ctermbg=12
 hi Visual         guifg=#afffff guibg=#4e4e4e gui=bold ctermfg=159 ctermbg=239 cterm=bold
 hi SpecialKey     guifg=#808080 ctermfg=244 guibg=NONE ctermbg=NONE
 hi WarningMsg     guifg=#afffff ctermfg=159
