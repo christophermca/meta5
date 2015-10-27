@@ -1,7 +1,6 @@
 v0.13.0
 -------
-35b52c9 Merge pull request #8 from christophermca/fold-color
-7efb5de (origin/fold-color) fixing color change
+fd2a13e fixing color change
 cac132b fold-color change
 
 v0.12.0
