@@ -37,7 +37,8 @@ hi StatusLineNC   guifg=#080808 guibg=#585858 ctermfg=232 ctermbg=240
 hi VertSplit      guifg=#444444 guibg=#585858 ctermfg=238 ctermbg=240
 hi Folded         guifg=#005f5f guibg=#000000 ctermfg=23 ctermbg=0
 hi Title          guifg=#df8700 ctermfg=172
-hi Error          guifg=#0000af guibg=#0000ff ctermfg=19 ctermbg=12
+hi ErrorMsg       guifg=#ffffff guibg=#ff0000 gui=NONE ctermfg=15 ctermbg=9 cterm=NONE
+hi Error          guifg=#ffffff guibg=#ff0000 gui=underline ctermfg=15 ctermbg=9 cterm=underline
 hi Visual         guifg=#afffff guibg=#4e4e4e gui=bold ctermfg=159 ctermbg=239 cterm=bold
 hi SpecialKey     guifg=#808080 ctermfg=244 guibg=NONE ctermbg=NONE
 hi WarningMsg     guifg=#afffff ctermfg=159
