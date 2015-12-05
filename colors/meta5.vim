@@ -32,8 +32,8 @@ hi CursorLineNr   guifg=#ffff00 guibg=NONE ctermfg=11 ctermbg=NONE
 hi colorColumn    guibg=#000080 ctermbg=4
 hi Directory      guifg=#00ffff guibg=NONE ctermfg=14 ctermbg=NONE
 hi LineNr         guifg=#808080 guibg=NONE ctermfg=244 ctermbg=NONE
-hi StatusLine     guifg=#080808 guibg=#585858 gui=bold ctermfg=232 ctermbg=240 cterm=bold term=bold
-hi StatusLineNC   guifg=#080808 guibg=#585858 ctermfg=232 ctermbg=240
+hi StatusLine     guifg=#080808 guibg=#585858 gui=underline ctermfg=23 ctermbg=232 cterm=underline term=underline
+hi StatusLineNC   guifg=#585858 guibg=#808080 ctermfg=240 ctermbg=232
 hi VertSplit      guifg=#444444 guibg=#585858 ctermfg=238 ctermbg=240
 hi Folded         guifg=#005f5f guibg=#000000 ctermfg=23 ctermbg=0
 hi Title          guifg=#df8700 ctermfg=172
