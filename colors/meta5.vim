@@ -1,6 +1,6 @@
 " Author: 'Christopher MCA'
 " Site: https:/github.com/christophermca/meta5
-" Version:      0.13.0
+" Version:      0.14.0
 
 "Note: a TRON inspired theme
 
