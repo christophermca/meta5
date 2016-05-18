@@ -1,3 +1,15 @@
+v0.15.0
+-------
+20dc170 initial ruby highlighting modifications
+
+v0.14.0
+-------
+cabe41f Merge pull request #9 from christophermca/statusLine
+3742a6e statusline
+fe83dad changes for status line
+41c485f errormessages
+3db1a4d changelog
+
 v0.13.0
 -------
 fd2a13e fixing color change

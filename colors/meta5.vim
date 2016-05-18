@@ -88,7 +88,7 @@ endif
 
 
 " LANGUAGE OVERRIDES
-"
+
 " Coffeescript
 hi coffeeEmbed          guifg=#87ffaf ctermfg=121
 
@@ -96,7 +96,7 @@ hi link coffeeSemicolonError NONE
 hi link coffeeSpaceError NONE
 hi link coffeeReservedError NONE
 
-"RUBY
+"Ruby
 hi link rubyFunction PreProc
 hi link rubyDefine Define
 hi link rubyModule Keyword
