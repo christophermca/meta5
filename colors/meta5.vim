@@ -70,12 +70,6 @@ hi PreProc        guifg=#00afff ctermfg=39
 hi Define         guifg=#ff8700 ctermfg=208
 
 
-"Coffeescript
-hi coffeeEmbed          guifg=#87ffaf ctermfg=121
-
-hi link coffeeSemicolonError NONE
-hi link coffeeSpaceError NONE
-hi link coffeeReservedError NONE
 
 "Diff
 hi DiffAdd        guifg=#00ff00 guibg=#005f00 cterm=NONE ctermfg=46 ctermbg=22 gui=NONE
@@ -90,3 +84,20 @@ if has("spell")
    hi spellRare      guifg=#bcbcbc guibg=#1c1c1c ctermfg=250 ctermbg=233
    hi spelllocal     cterm=NONE ctermfg=NONE ctermbg=20 gui=NONE guifg=NONE guibg=#0000df
 endif
+
+
+
+" LANGUAGE OVERRIDES
+"
+" Coffeescript
+hi coffeeEmbed          guifg=#87ffaf ctermfg=121
+
+hi link coffeeSemicolonError NONE
+hi link coffeeSpaceError NONE
+hi link coffeeReservedError NONE
+
+"RUBY
+hi link rubyFunction PreProc
+hi link rubyDefine Define
+hi link rubyModule Keyword
+hi link rubyClass Keyword
