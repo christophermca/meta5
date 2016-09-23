@@ -22,6 +22,16 @@ if version >= 700
   hi PmenuSel     guifg=#000000 guibg=#df8700 ctermfg=0 ctermbg=172
   hi search       guifg=#ff00ff guibg=NONE gui=underline ctermfg=201 ctermbg=NONE cterm=underline
   hi Incsearch    guifg=#ff00ff guibg=NONE gui=underline ctermfg=201 ctermbg=NONE cterm=underline
+
+  function! ToggleOverLength()
+    if g:show_over_length
+      hi OverLength ctermfg=NONE ctermbg=17
+      let g:show_over_length = 1
+    else
+      hi OverLength ctermfg=NONE ctermbg=NONE
+      let g:show_over_length = 0
+
+  endfunction
 endif
 
 " General colors
